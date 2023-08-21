@@ -1,12 +1,12 @@
 {
   "name": "nestjs-study",
   "version": "0.0.1",
-  "description": "",
+  "description": "Учебный проект по next js",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "build": "nest build",
+    "build": "rm -rf build && nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
